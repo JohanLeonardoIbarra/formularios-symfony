@@ -1,0 +1,13 @@
+sync:
+  defaults:
+    mode: two-way-safe
+    ignore:
+      paths:
+        - var
+        - vendor
+        - public
+        - bin
+        - "*.lock"
+    permissions:
+      defaultFileMode: 0666
+      defaultDirectoryMode: 0777
